@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualization</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualization</h1>
+        <form id="sortForm">
+            <textarea id="dataInput" rows="5" placeholder="Enter data separated by commas"></textarea>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="selection">Selection Sort</option>
+                <option value="insertion">Insertion Sort</option>
+            </select>
+            <button type="button" onclick="sortData()">Sort</button>
+        </form>
+        <div id="visualization"></div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
